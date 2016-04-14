@@ -1,4 +1,4 @@
-package padroesjava;
+package br.com.java.padroesjava;
 
 public class Main {
 
