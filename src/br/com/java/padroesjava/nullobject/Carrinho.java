@@ -1,21 +1,10 @@
 package br.com.java.padroesjava.nullobject;
 
-public class Carrinho {
+public abstract class Carrinho {
 
 	private Double valor;
 	private Integer tamanho;
 	private String nomeUsuario;
-
-	public Carrinho() {
-		super();
-	}
-
-	public Carrinho(Double valor, Integer tamanho, String nomeUsuario) {
-		super();
-		this.valor = valor;
-		this.tamanho = tamanho;
-		this.nomeUsuario = nomeUsuario;
-	}
 
 	public Double getValor() {
 		return valor;

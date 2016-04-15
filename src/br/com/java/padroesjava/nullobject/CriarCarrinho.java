@@ -1,13 +1,13 @@
 package br.com.java.padroesjava.nullobject;
 
 public class CriarCarrinho {
-
-	public Carrinho criarCarrinho(Carrinho carrinho){
-		if (carrinho == null) {
+	
+	public static Carrinho construirCarrinho(String nomeUsuario, Integer tamanho, Double valor){
+		
+		if (nomeUsuario == null || tamanho == null || valor == null) {
 			return new CarrinhoNulo();
-		}
-		else {
-			return carrinho;
+		}else {
+			return new CarrinhoCustomizado(nomeUsuario,tamanho, valor);
 		}
 	}
 }

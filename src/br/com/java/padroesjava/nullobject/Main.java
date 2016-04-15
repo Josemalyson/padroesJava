@@ -4,17 +4,15 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		CriarCarrinho criarCarrinho = new CriarCarrinho();
+
+		Carrinho carrinho = CriarCarrinho.construirCarrinho("josemalyson", 1, 1.0);
 		
-		Carrinho carrinho = null;
-		carrinho = criarCarrinho.criarCarrinho(carrinho);
-		carrinho.setNomeUsuario("asdjksajdgh");
-		System.out.println(carrinho.getNomeUsuario() + " " + carrinho.getTamanho() + " " + carrinho.getValor());
+		Carrinho carrinho2 = CriarCarrinho.construirCarrinho(null, null, null);
+
+		System.out.println(carrinho.getNomeUsuario() +" "+ carrinho.getTamanho() +" "+ carrinho.getValor());
+		System.out.println(carrinho2.getNomeUsuario() +" "+ carrinho2.getTamanho() +" "+ carrinho2.getValor());
 		
-		Carrinho carrinho2 = new Carrinho(1.0,1,"Josemalyson");
-		criarCarrinho.criarCarrinho(carrinho2);
-		System.out.println(carrinho2.getNomeUsuario() + " " + carrinho2.getTamanho() + " " + carrinho2.getValor());
-		
+
 	}
 
 }

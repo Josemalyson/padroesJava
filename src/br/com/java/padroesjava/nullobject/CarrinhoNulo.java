@@ -2,29 +2,19 @@ package br.com.java.padroesjava.nullobject;
 
 public class CarrinhoNulo extends Carrinho {
 
+	@Override
 	public String getNomeUsuario() {
-
-		if (super.getNomeUsuario() == null) {
-			return "";
-		}
-
-		return super.getNomeUsuario();
+		return "vazio";
 	}
-
+	
+	@Override
 	public Integer getTamanho() {
-
-		if (super.getTamanho() == null) {
-			return 0;
-		}
-		return super.getTamanho();
+		return 0;
 	}
-
+	
+	@Override
 	public Double getValor() {
-		if (super.getValor() == null) {
-			return 0.0;
-		}
-
-		return super.getValor();
+		return 0.0;
 	}
 
 }
