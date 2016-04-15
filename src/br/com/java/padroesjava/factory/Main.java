@@ -6,10 +6,10 @@ public class Main {
 	
 		Fabrica fabrica = new Fabrica();
 		
-		Transporte carro = fabrica.getObterObject("carro");
+		Transporte carro = fabrica.criarTransporteDoTipo("carro");
 		carro.mover();
 		
-		Transporte moto = fabrica.getObterObject("moto");
+		Transporte moto = fabrica.criarTransporteDoTipo("moto");
 		moto.mover();
 	}
 }

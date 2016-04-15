@@ -2,7 +2,7 @@ package br.com.java.padroesjava.factory;
 
 public class Fabrica {
 
-	public Transporte getObterObject(String objeto) {
+	public Transporte criarTransporteDoTipo(String objeto) {
 
 		if ("carro".equalsIgnoreCase(objeto)) {
 			return new Carro();
