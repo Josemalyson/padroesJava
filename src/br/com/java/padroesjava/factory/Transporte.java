@@ -1,6 +1,6 @@
 package br.com.java.padroesjava.factory;
 
-public interface Mover {
+public interface Transporte {
 
 	void mover();
 }
