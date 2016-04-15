@@ -1,6 +1,6 @@
 package br.com.java.padroesjava.factory;
 
-public class MoverFabrica {
+public class Fabrica {
 
 	public Mover getObterObject(String objeto) {
 
