@@ -9,6 +9,7 @@ public class Main {
 		
 		Carrinho carrinho2 = CriarCarrinho.construirCarrinho(null, null, null);
 
+		
 		System.out.println(carrinho.getNomeUsuario() +" "+ carrinho.getTamanho() +" "+ carrinho.getValor());
 		System.out.println(carrinho2.getNomeUsuario() +" "+ carrinho2.getTamanho() +" "+ carrinho2.getValor());
 		
