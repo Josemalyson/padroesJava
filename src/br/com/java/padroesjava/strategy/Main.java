@@ -9,7 +9,7 @@ public class Main {
 		passeio.setMarca("Gol");
 		passeio.setPlaca("mxj - 1234");
 		
-		long periodoHora = 1;
+		long periodoHora = 120;
 		
 		ContaEstacionamento contaEstacionamento = new ContaEstacionamento(passeio,periodoHora);
 		contaEstacionamento.calcularValor();

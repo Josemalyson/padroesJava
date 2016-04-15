@@ -17,9 +17,9 @@ public class ContaEstacionamento {
 	public void calcularValor() {
 
 		if (veiculo instanceof Passeio) {
-			if (periodo < 12) {
+			if (periodo < 720) {
 				calculoValor = new CalculoHora(VALOR_HORA);
-			} else if (periodo > 12 && periodo < 15) {
+			} else if (periodo > 720 && periodo < 900) {
 				calculoValor = new CalculoDiaria(VALOR_DIA);
 			} else {
 				calculoValor = new CalculoMes(VALOR_MES);
