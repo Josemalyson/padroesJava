@@ -8,18 +8,4 @@ public class CarrinhoCustomizado extends Carrinho {
 		this.setValor(valor);
 	}
 
-	@Override
-	public String getNomeUsuario() {
-		return super.getNomeUsuario();
-	}
-
-	@Override
-	public Integer getTamanho() {
-		return super.getTamanho();
-	}
-
-	@Override
-	public Double getValor() {
-		return super.getValor();
-	}
 }
