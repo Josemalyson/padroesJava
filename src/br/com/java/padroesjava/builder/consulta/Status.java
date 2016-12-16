@@ -1,4 +1,4 @@
-package br.com.java.padroesjava.builder;
+package br.com.java.padroesjava.builder.consulta;
 
 public enum Status {
 
